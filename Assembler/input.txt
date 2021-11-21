@@ -1,0 +1,10 @@
+START
+	CLA
+loop	INP	x
+	DIV	z
+	ADD	R2
+	BRZ	loop
+	STP
+x	10
+z	40
+END
